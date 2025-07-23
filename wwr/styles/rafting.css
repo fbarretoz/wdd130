@@ -8,6 +8,7 @@
     --accent2-color: #FFB703;
     --heading-font: "Bebas Neue", sans-serif;
     --body-font: "Work Sans", sans-serif;
+    --title-font: "Winky Rough", sans-serif;
 
 }
 
@@ -26,13 +27,13 @@ body {
 header,
 main,
 footer {
-    width: 840px;
+    /* width: 840px; */
     margin: 0 auto;
 }
 
 h1,
 h2 {
-    font-family: var(--heading-font);
+    font-family: var(--title-font);
     color: var(--primary-color);
 }
 
@@ -48,6 +49,55 @@ article {
     text-decoration: none;
 }
 
+/* ===HEADER=== */
+header {
+    display: grid;
+    grid-template-columns: 80px 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    height: 80px;
+}
+
+header img {
+    margin: 0 0.25rem 0 1rem;
+    width: 55px;
+    height: auto;
+}
+
+header p {
+    font-size: 2rem;
+    font-family: var(--title-font);
+    color: #ffffff;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navigation li {
+    flex: 1 1 auto;
+}
+
+.navigation a {
+    display: block;
+    color: #ffffff;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.navigation a:hover {
+    color: var(--accent1-color);
+    /* font-weight: 700; */
+    /* text-decoration: underline; */
+}
+
+/* ===HERO=== */
 .hero {
     position: relative;
 }
@@ -60,27 +110,25 @@ article {
 
 h1 {
     position: absolute;
-    top: 20px;
+    top: 15px;
     width: 100%;
-    padding: 16px;
+    padding: 5px;
     text-align: center;
-    /* opacity: 0.7; */
-    /* background-color: var(--accent2-color); */
     background: rgba(255, 183, 3, 0.7);
     color: #000;
-    /* white text - make sure there is enough contrast with the background-color */
     letter-spacing: 3px;
 }
 
 article {
     position: absolute;
-    bottom: 25px;
+    margin: 50px;
+    bottom: 20px;
     left: 25px;
-    background: var(--primary-color);
+    background: rgba(0, 119, 182, .8);
     border: 1px solid #000;
     padding: 0.65rem;
     box-shadow: 0 0 30px #111;
-    opacity: 0.8;
+    /* opacity: 0.8; */
 }
 
 article p {

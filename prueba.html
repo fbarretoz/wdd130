@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        header {
+            margin: 1rem auto;
+            display: grid;
+            grid-template-columns: 120px 1fr 1fr;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+            max-width: 1000px;
+        }
+
+        .logo img {
+            margin: 0 0.25rem 0 1rem;
+            width: 64px;
+            height: auto;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-family: Acme, Arial, sans-serif;
+        }
+
+        .navigation {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .navigation li {
+            flex: 1 1 auto;
+        }
+
+        .navigation a {
+            display: block;
+            color: navy;
+            padding: 20px;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        .navigation a:hover {
+            color: tomato;
+            font-weight: 700;
+            text-decoration: underline;
+        }
+
+        body {
+            font-family: Acme, Arial, sans-serfi;
+        }
+
+        article {
+            margin: 1em auto;
+            border: 1px solid rgb(0 0 0 / 10%);
+            padding: 1em;
+            background-color: #ace;
+            width: min(600px, 100%);
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="https://brotherblazzard.github.io/images/icons/coloredGears.png" alt="Sample Logo">
+        <h1>Wasatch Accusystems</h1>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>This is an example of a header using CSS Grid layout.<br> Note that the header structure has
+            <u>three</u> grid items:
+            <ol>
+                <li>img</li>
+                <li>h1</li>
+                <li>nav</li>
+            </ol>
+            <p>And uses these CSS grid related declarations</p>
+            <code> display: grid;<br>
+        grid-template-columns: 120px 1fr 1fr;<br>
+        align-items: center;</code>
+            <p><code>display:</code> makes the header a grid</p>
+            <p><code>grid-tempalte-columns:</code> defines that there are three columns, the first one at a fixed size
+                of 120px and the rest sharing equally the rest of the space</p>
+            <p><code>align-items:</code> aligns the grid items to the middle of the header (the grid)</p>
+        </article>
+    </main>
+
+
+</body>
+
+</html>
