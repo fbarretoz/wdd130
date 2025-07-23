@@ -200,7 +200,8 @@ article p {
 }
 
 figcaption {
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
+    background-color: #413e3e;
     color: #fff;
     /* font: italic smaller sans-serif; */
     padding: 3px;
