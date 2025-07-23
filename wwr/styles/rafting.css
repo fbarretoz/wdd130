@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #0077B6;
+    --primary-color: #012c44;
     /*Honolulu Blue*/
     --secondary-color: #00B4D8;
     /*Pacific Cian*/
@@ -64,7 +64,7 @@ header img {
 header h1 {
     font-size: 2rem;
     font-family: var(--title-font);
-    color: #ffffff;
+    color: #FFFFFF;
 }
 
 .navigation {
@@ -127,7 +127,7 @@ article {
     /* margin: 50px; */
     bottom: 60px;
     /* left: 25px; */
-    background: rgba(0, 119, 182, .8);
+    background: rgba(0, 0, 0, .8);
     border: 1px solid #000;
     padding: 0.65rem;
     box-shadow: 0 0 30px #111;
