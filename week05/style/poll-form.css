@@ -61,15 +61,6 @@ legend {
     font-weight: bold;
 }
 
-/* Option: Style all the form elements (label, input, button, select, and textarea) with a different font family and in whatever other way you see fit that is different than the headings and legends. */
-label,
-input,
-button,
-select,
-textarea {
-    font-family: Roboto, Arial, sans-serif;
-}
-
 /* Style the label elements to text-align right and have a padding-right value */
 label {
     text-align: right;
