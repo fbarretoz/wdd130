@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>-us Us - White Water Rafting Company</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="Félix José Barreto Zerpa">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Winky+Rough:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="styles/rafting.css">
+
+</head>
+
+<body>
+
+    <header>
+        <img src="images/wwr-logo.png" alt="Rafting Company Logo">
+        <h1>WhiteWater Rafting</h1>
+        <nav class="navigation">
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a class="active" href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="information">
+            <h2>Information</h2>
+            <div>
+                <h3>Address</h3>
+                <p>Cartel Trail, CO 80301,</p>
+                <p>USA</p>
+                <h3>Phone number(s)</h3>
+                <p>Main Office: +1 (555) 123-4567</p>
+                <p>Emergency/Booking Line: +1 (555) 987-6543</p>
+                <h3>Email</h3>
+                <p>bookings@whitewater_rafting.com</p>
+            </div>
+
+
+            <div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5400.166969972912!2d-105.18548451778703!3d40.05316283904955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses-419!2sve!4v1754093735252!5m2!1ses-419!2sve"
+                    width="420" height="315" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="employee">
+            <h2>Employee profiles</h2>
+            <figure>
+                <img src="images/person-m-1.webp" alt="Equipment Rental">
+                <figcaption>
+                    <h3>William Jhonson</h3>
+                    Chief Executive Officer
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/person-f-1.webp" alt="Learning Rafting">
+                <figcaption>
+                    <h3>Amanda Jepson</h3>
+                    Product Manager
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/person-m-2.webp" alt="Family Trip">
+                <figcaption>
+                    <h3>Walter Anderson</h3>
+                    Instructor
+                </figcaption>
+            </figure>
+        </section>
+
+        <section class="contact-us">
+            <h2>CONTACT US</h2>
+
+            <form>
+                <div class="column2">
+                    <fieldset>
+                        <legend>User Information</legend>
+                        <div class="form-item">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name">
+                        </div>
+
+                        <div class="form-item">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="column2">
+                    <fieldset>
+                        <legend>Message</legend>
+
+                        <div>
+                            <!-- <p>How can we help you?</p> -->
+                            <label for="inquiry">How can we help you?</label><br>
+                            <div class="form-radio">
+                                <input type="radio" id="inquiry" name="help_user" value="inquiry">
+                                <label for="inquiry">General Inquiry</label>
+                            </div>
+
+                            <div class="form-radio">
+                                <input type="radio" id="reservation" name="help_user" value="reservation">
+                                <label for="reservation">Reservation Question</label>
+                            </div>
+
+                            <div class="form-radio">
+                                <input type="radio" id="website" name="help_user" value="website">
+                                <label for="website">Website Suggestion</label>
+                            </div>
+                        </div>
+
+                        <div class="form-item">
+                            <label for="message">Write your text:</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+
+                        <div class="form-radio">
+                            <input type="checkbox" id="suscribe" name="suscribe">
+                            <label for="suscribe">Please subscribe me to the monthly newsletter</label>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <button type="submit">Submit Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 WhiteWater Rafting Company - Félix Barreto</p>
+        <nav class="socialmedia">
+            <a class="facebook" href="https://facebook.com">
+                <img src="images/logo_facebook.png" alt="Facebook ">
+            </a>
+            <a class="x-media" href="https://x.com">
+                <img src="images/logo_x3.png" alt="X-media logo">
+            </a>
+            <a class="instagram" href="https://instagram.com">
+                <img src="images/logo_instagram.png" alt="Instagram logo">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
