@@ -46,6 +46,152 @@ article {
     padding: 8px;
 }
 
+
+/*====================
+===== HOME - PAGE ===== 
+======================*/
+
+/* ===HOME=== */
+.home {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    /* height: 750px; */
+}
+
+.home img {
+    display: block;
+    width: 100%;
+    /* height: auto; */
+
+}
+
+.home h1 {
+    position: absolute;
+    bottom: 200px;
+    /* right: 100px; */
+    /* top: 100px; */
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 0 rgb(0, 0, 0);
+    font-size: 3rem;
+    font-family: var(--body-font);
+}
+
+
+.trip {
+    height: 200px;
+    background-color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 0;
+}
+
+.trip h2 {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 2.3rem;
+}
+
+.trip button {
+    width: 30%;
+    margin: 0 auto 30px auto;
+    padding: 15px;
+    background-color: var(--accent2-color);
+    color: #000;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.7rem;
+}
+
+.trip button:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.purpose {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.purpose img {
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.puporse-note h2 {
+    font-size: 3rem;
+    padding: 10px;
+    font-family: var(--body-font);
+}
+
+.puporse-note p {
+    font-size: 2rem;
+    padding: 10px;
+    margin: 0;
+}
+
+.newsletter {
+    display: grid;
+    height: 250px;
+    background-color: #B9EDFA;
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 0;
+}
+
+.newsletter h2 {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 2.3rem;
+}
+
+.newsletter form {
+    text-align: center;
+}
+
+.newsletter form div {
+    display: inline-block;
+}
+
+.newsletter form div label {
+    padding: 0 0 0 20px;
+}
+
+.newsletter form div input {
+    border: 0;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    display: block;
+    width: 30%;
+    margin: 30px auto 10px auto;
+    padding: 15px;
+    background-color: var(--accent2-color);
+    color: #000;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.7rem;
+}
+
+.newsletter button:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
 /*====================
 ===== ABOUT US ===== 
 ======================*/
@@ -327,7 +473,7 @@ footer nav .x-media {
     margin: 15px;
 }
 
-form {
+.contact-us form {
     width: 650px;
     margin: 0 auto;
     padding: 1rem;
